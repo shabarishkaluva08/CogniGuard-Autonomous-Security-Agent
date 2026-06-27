@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CogniGuard AI — Intelligent Workstation Security Agent. Real-time AI-powered physical presence monitoring and autonomous workstation protection." />
+    <meta name="theme-color" content="#0F172A" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>CogniGuard AI — Intelligent Workstation Security Agent</title>
+  </head>
+  <body>
+    <script src="/face-api.min.js"></script>
+    <div id="error-display" style="color:red; background:white; font-family:monospace; padding:20px; z-index:99999; position:relative; font-size: 20px; display:none;"></div>
+    <script>
+      window.addEventListener('error', function(e) {
+        const d = document.getElementById('error-display');
+        d.style.display = 'block';
+        d.innerHTML += '<br/>ERROR: ' + e.message + '<br/>FILE: ' + e.filename + '<br/>LINE: ' + e.lineno + ':' + e.colno;
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        const d = document.getElementById('error-display');
+        d.style.display = 'block';
+        d.innerHTML += '<br/>UNHANDLED PROMISE REJECTION: ' + (e.reason ? (e.reason.message || e.reason) : 'Unknown');
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
