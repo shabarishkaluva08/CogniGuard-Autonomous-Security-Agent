@@ -72,7 +72,7 @@ Enterprise Dashboard
 ## Backend
 
 - Node.js
-- Express.js
+- React.js
 - WebSocket
 
 ## Database
