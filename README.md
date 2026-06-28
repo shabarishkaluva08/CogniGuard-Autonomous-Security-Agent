@@ -186,22 +186,25 @@ CogniGuard AI addresses this challenge through continuous AI-powered identity ve
 
 - Intruder Detection
 
-  <img width="1910" height="810" alt="image" src="https://github.com/user-attachments/assets/37722ec4-f02b-48af-9e11-ec8c974a07b7" />
+  <img width="1917" height="892" alt="Screenshot 2026-06-28 103331" src="https://github.com/user-attachments/assets/4bedd1a5-4d5a-4621-99a1-976a1b4209db" />
+
 
 
 ---
 
 # 👨‍💻 Team
 
-**Team Shabari**
+**Team VICKY**
 
 shabarish kaluva 
 
-AscAIthon 2026
+ Ram lekkala
 
-BVRIT
+ AscAIthon 2026
 
-Ram lekkala
+ BVRIT
+
+
 
 ---
 
